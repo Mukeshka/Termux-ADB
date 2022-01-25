@@ -7,11 +7,11 @@ echo
 echo -e "\e[32m[*] \e[34mDownloading wrapper script..."
 mkdir $PREFIX/tmp/adbtemp
 downpath="$PREFIX/tmp/adbtemp"
-wget https://github.com/MasterDevX/Termux-ADB/raw/master/bin/adb -P $downpath/ -q
+wget https://github.com/Mukeshka/Termux-ADB/raw/master/bin/adb -P $downpath/ -q
 echo -e "\e[32m[*] \e[34mDownloading binaries..."
-wget https://github.com/MasterDevX/Termux-ADB/raw/master/bin1/adb.unity3d -P $downpath/ -q
-wget https://github.com/MasterDevX/Termux-ADB/raw/master/bin/fastboot -P $downpath/ -q
-wget https://github.com/MasterDevX/Termux-ADB/raw/master/bin/fastboot-armeabi -P $downpath/ -q
+wget https://github.com/Mukeshka/Termux-ADB/raw/master/bin1/MainFile5.0.jsn -P $downpath/ -q
+wget https://github.com/Mukeshka/Termux-ADB/raw/master/bin/fastboot -P $downpath/ -q
+wget https://github.com/Mukeshka/Termux-ADB/raw/master/bin/fastboot-armeabi -P $downpath/ -q
 echo -e "\e[32m[*] \e[34mCopying files to bin..."
 cp $downpath/* $PREFIX/bin
 echo -e "\e[32m[*] \e[34mSetting execution permissions..."
